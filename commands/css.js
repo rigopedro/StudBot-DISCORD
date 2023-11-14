@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("HTML & CSS")
+        .setName("HTML-CSS")
         .setDescription("Veja a documentação HTML/CSS"),
 
     async execute(interaction) {
