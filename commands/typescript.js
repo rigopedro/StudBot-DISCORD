@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("typescript")
+        .setName("TypeScript")
         .setDescription("Veja a documentação TypeScript"),
 
     async execute(interaction) {

@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("java")
+        .setName("Java")
         .setDescription("Veja a documentação Java"),
 
     async execute(interaction) {
