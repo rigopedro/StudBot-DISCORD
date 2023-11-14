@@ -38,25 +38,25 @@ client.on(Events.InteractionCreate, async (interaction) => {
     if (interaction.isStringSelectMenu()) {
       const selected = interaction.values[0];
       switch (selected) {
-        case "javascript":
+        case "JavaScript":
           await interaction.reply("Documentação do JavaScript: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript");
           break;
-        case "python":
+        case "Python":
           await interaction.reply("Documentação do Python: https://docs.python.org/pt-br/3/tutorial/index.html");
           break;
         case "csharp":
           await interaction.reply("Documentação do C#: https://learn.microsoft.com/en-us/dotnet/csharp/");
           break;
-        case "java":
+        case "Java":
           await interaction.reply("Documentação do Java: https://docs.oracle.com/en/java/");
           break;
-        case "php":
+        case "PHP":
           await interaction.reply("Documentação do PHP: https://www.php.net/docs.php");
           break;
-        case "ruby":
+        case "Ruby":
           await interaction.reply("Documentação do Ruby: https://ruby-doc.org/");
           break;
-        case "typescript":
+        case "TypeScript":
           await interaction.reply("Documentação do TypeScript: https://www.typescriptlang.org/docs/");
           break;
         case "html-css":
