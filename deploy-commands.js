@@ -18,13 +18,13 @@ for (const file of commandFiles) {
     commands.push(command.data.toJSON())
 }
 
-const javaCommand = require("./commands/commands/Java");
+const javaCommand = require("./commands/Java");
 commands.push(javaCommand.data.toJSON());
 
-const rubyCommand = require("./commands/commands/Ruby");
+const rubyCommand = require("./commands/Ruby");
 commands.push(rubyCommand.data.toJSON());
 
-const typescriptCommand = require("./commands/commands/TypeScript");
+const typescriptCommand = require("./commands/TypeScript");
 commands.push(typescriptCommand.data.toJSON());
 
 const phpCommand = require("./commands/PHP");
