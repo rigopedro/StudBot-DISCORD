@@ -29,24 +29,24 @@ const row = new ActionRowBuilder()
         },
         // Novas opções
         {
-          label: "java",
+          label: "Java",
           description: "Veja a documentação Java",
-          value: "java"
+          value: "Java"
         },
         {
-          label: "php",
+          label: "PHP",
           description: "Veja a documentação PHP",
-          value: "php"
+          value: "PHP"
         },
         {
-          label: "ruby",
+          label: "Ruby",
           description: "Veja a documentação Ruby",
-          value: "ruby"
+          value: "Ruby"
         },
         {
-          label: "typescript",
+          label: "TypeScript",
           description: "Veja a documentação TypeScript",
-          value: "typescript"
+          value: "TypeScript"
         }
       )
   );
