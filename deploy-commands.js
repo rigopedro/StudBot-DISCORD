@@ -18,6 +18,21 @@ for (const file of commandFiles) {
     commands.push(command.data.toJSON())
 }
 
+const javaCommand = require("./commands/java");
+commands.push(javaCommand.data.toJSON());
+
+const rubyCommand = require("./commands/ruby");
+commands.push(rubyCommand.data.toJSON());
+
+const typescriptCommand = require("./commands/typescript");
+commands.push(typescriptCommand.data.toJSON());
+
+const phpCommand = require("./commands/php");
+commands.push(phpCommand.data.toJSON());
+
+const htmlCssCommand = require("./commands/html-css");
+commands.push(htmlCssCommand.data.toJSON());
+
 // instância REST
 const rest = new REST({version: "10"}).setToken(TOKEN);
 
