@@ -38,10 +38,10 @@ client.on(Events.InteractionCreate, async (interaction) => {
     if (interaction.isStringSelectMenu()) {
       const selected = interaction.values[0];
       switch (selected) {
-        case "JavaScript":
+        case "javaScript":
           await interaction.reply("Documentação do JavaScript: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript");
           break;
-        case "Python":
+        case "python":
           await interaction.reply("Documentação do Python: https://docs.python.org/pt-br/3/tutorial/index.html");
           break;
         case "csharp":
