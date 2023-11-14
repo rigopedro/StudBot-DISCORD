@@ -60,4 +60,4 @@ Sinta-se à vontade para contribuir para este projeto. Se encontrar problemas ou
 
 ### Autor
 
-Seu Nome
+Pedro 🤙
