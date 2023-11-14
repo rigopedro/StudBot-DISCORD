@@ -8,4 +8,4 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply("https://www.typescriptlang.org/docs/");
     }
-}
+}           
