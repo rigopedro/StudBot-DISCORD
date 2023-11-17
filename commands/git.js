@@ -1,6 +1,6 @@
-const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, MessageEmbed } = require('discord.js');
 
-const gitCommandsEmbed = new EmbedBuilder()
+const gitCommandsEmbed = new MessageEmbed()
   .setColor(0x0099FF)
   .setTitle('Comandos do Git 🚀')
   .setDescription('Relembrar comandos do Git e suas funcionalidades.');
