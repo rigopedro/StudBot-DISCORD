@@ -10,25 +10,25 @@ module.exports = {
       content: 'Comandos do Git 🚀',
       embeds: [
         {
-          color: 0x0099FF,
+          color: 'BLURPLE',
           title: 'Comandos do Git 🚀',
           description: 'Relembrar comandos do Git e suas funcionalidades.',
           fields: [
             {
               name: 'Comandos Básicos',
-              value: '$ git init [nome-do-projeto]\nCria um novo repositório local com um nome especificado.',
+              value: '```git init [nome-do-projeto]``` - Cria um novo repositório local com um nome especificado.',
             },
             {
               name: 'Comandos de Status e Commit',
-              value: '$ git status\nRevise edições e crie uma transação de commit.',
+              value: '```git status``` - Revise edições e crie uma transação de commit.',
             },
             {
               name: 'Comandos de Branch',
-              value: '$ git branch\nLista todos os branches locais no repositório atual.',
+              value: '```git branch``` - Lista todos os branches locais no repositório atual.',
             },
             {
               name: 'Comandos de Merge e Push',
-              value: '$ git merge [nome-branch]\nCombina o histórico da branch especificada à branch atual.',
+              value: '```git merge [nome-branch]``` - Combina o histórico da branch especificada à branch atual.',
             },
           ],
         },
