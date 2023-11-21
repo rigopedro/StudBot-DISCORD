@@ -33,6 +33,9 @@ commands.push(phpCommand.data.toJSON());
 const htmlCssCommand = require("./commands/html-css");
 commands.push(htmlCssCommand.data.toJSON());
 
+const botinfoCommand = require("./commands/botinfo");
+commands.push(botinfoCommand.data.toJSON());
+
 // instância REST
 const rest = new REST({version: "10"}).setToken(TOKEN);
 
